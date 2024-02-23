@@ -1,0 +1,25 @@
+{
+  "name"         : "thao-node-red-contrib-meo-esp",
+  "version"      : "0.2.2",
+  "description"  : "A node for MEO ESP Board",
+  "dependencies" : {
+
+  },
+  "main": "none",
+  "scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+  "license": "Apache-2.0",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/thaonguyentien/thao-node-red-contrib-meo-esp.git"
+	},
+
+  "keywords"     : [ "node-red", "meo", "esp", "nodemcu" ],
+  "node-red"     : {
+    "version": ">=0.14.0",
+    "nodes": {
+      "meo-esp": "nodes/meo-esp.js"
+    }
+  }
+}
